@@ -17,4 +17,9 @@ class WeightConversion
     {
         return $this->kilograms * 2.20462;
     }
+
+    public function toGrams(): float
+    {
+        return $this->kilograms * 1000.0;
+    }
 }
